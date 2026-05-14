@@ -76,6 +76,11 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+or
+
+```bash
+python -m pip install -r requirements.txt
+```
 
 ---
 
