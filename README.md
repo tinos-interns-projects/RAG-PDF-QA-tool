@@ -34,8 +34,8 @@ Built using Streamlit, LangChain, FAISS, Hugging Face embeddings, and Ollama.
 ```text
 project/
 │
-├── app.py
-├── rag_qa.py
+├── app.py          # Streamlit frontend version
+├── rag_qa.py       # Terminal-based backend version
 ├── requirements.txt
 ├── README.md
 └── .gitignore
@@ -136,7 +136,19 @@ python -m streamlit run app.py
 ```
 
 ---
+## Terminal Version
 
+A terminal-based version of the application is also included.
+
+Run it using:
+
+```bash
+py rag_qa.py
+```
+
+This version allows users to interact with the PDF Q&A system directly from the terminal without the Streamlit frontend.
+
+---
 ## Working
 
 1. User uploads a PDF
