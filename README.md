@@ -60,7 +60,7 @@ cd YOUR_PROJECT_NAME
 Create a virtual environment:
 
 ```bash
-py -m venv venv
+python -m venv venv
 ```
 
 Activate the virtual environment:
@@ -143,7 +143,7 @@ A terminal-based version of the application is also included.
 Run it using:
 
 ```bash
-py rag_qa.py
+python rag_qa.py
 ```
 
 This version allows users to interact with the PDF Q&A system directly from the terminal without the Streamlit frontend.
